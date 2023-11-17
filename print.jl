@@ -25,7 +25,7 @@ end
 function print_state(s)
     #print(red())
     for i in eachindex(s)
-        @printf("%-7s ", s[i])
+        @printf("%-12s ", s[i])
     end
     @printf("\n")
 end
